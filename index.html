@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Zahabiyah Masalawala</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <img src="profile.jpg" alt="Profile Image">
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a student pursuing a BSc in Computer Science. I am an active learner, constantly enhancing my skills in web and mobile development.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+            <li>Kotlin</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <article>
+                <h3>Web Calculator</h3>
+                <p>Built a web-based calculator using HTML, CSS, Tailwind CSS, and JavaScript.</p>
+                <a href="https://github.com/CodeMasterZahab/Projects/blob/main/Calculator%20using%20html" class="btn">View Project</a>
+            </article>
+            <article>
+                <h3>Calculator App</h3>
+                <p>Developed a mobile calculator app using Kotlin in Android Studio.</p>
+                <a href="https://github.com/CodeMasterZahab/Projects/blob/main/Calculator%20using%20Kotlin" class="btn">View Project</a>
+            </article>
+            <article>
+                <h3>Java Calculator</h3>
+                <p>Developed a calculator using Java in Notepad.</p>
+                <a href="https://github.com/CodeMasterZahab/Projects/blob/main/Calculator%20using%20Java" class="btn">View Project</a>
+            </article>
+        </div>
+        <p>For more projects, visit my <a href="https://github.com/CodeMasterZahab">GitHub profile</a>.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-details">
+            <h3>Contact Details</h3>
+            <p>Email: <a href="mailto:zahab@gmail.com"><i class="fas fa-envelope"></i> zahab@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://in.linkedin.com/in/zahabiyah-masalawala-6235a128a"><i class="fab fa-linkedin"></i> Zahabiyah Masalawala</a></p>
+            <p>GitHub: <a href="https://github.com/CodeMasterZahab/Projects"><i class="fab fa-github"></i> CodeMasterZahab</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Zahabiyah Masalawala. All rights reserved.</p>
+    </footer>
+</body>
+</html>
